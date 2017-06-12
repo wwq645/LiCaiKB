@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="SX7-qa-Tc4">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--直销银行-->
+        <scene sceneID="FQS-9j-Sua">
+            <objects>
+                <viewController id="SX7-qa-Tc4" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2Tr-JL-UiP"/>
+                        <viewControllerLayoutGuide type="bottom" id="fjc-DF-9Mt"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="3BN-DC-vgc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="直销银行" image="icon_tab_product" selectedImage="icon_tab_product_selected" id="IpK-hV-pGb"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7hd-q8-aj0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10" y="-358"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_tab_product" width="21" height="20"/>
+        <image name="icon_tab_product_selected" width="21" height="20"/>
+    </resources>
+</document>

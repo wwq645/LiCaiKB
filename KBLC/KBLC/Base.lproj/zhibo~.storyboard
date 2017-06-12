@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CEM-w1-3LD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--鸡毛信-->
+        <scene sceneID="h2K-X7-dBS">
+            <objects>
+                <viewController id="gk9-cv-8c7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O4H-aa-F2k"/>
+                        <viewControllerLayoutGuide type="bottom" id="bc2-Vg-puB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vwo-b5-9bF">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="鸡毛信" image="icon_tab_message" selectedImage="icon_tab_message_selected" id="2lp-Yk-lT9"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fxc-em-bkF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1366" y="-358"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="z36-Zs-g6e">
+            <objects>
+                <viewController id="McA-un-2ii" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9rd-Xf-PtS"/>
+                        <viewControllerLayoutGuide type="bottom" id="JDD-Qj-MZg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Wo1-lT-BD6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="我的" image="icon_tab_my_info" selectedImage="icon_tab_my_info_selected" id="wOe-mG-Hed"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kVc-DE-gk2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2086" y="-358"/>
+        </scene>
+        <!--直播-->
+        <scene sceneID="pGW-SB-6WP">
+            <objects>
+                <viewController id="NaW-WK-GHn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ep3-GD-04Z"/>
+                        <viewControllerLayoutGuide type="bottom" id="omj-RE-dZd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7MF-JA-vYr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="直播" image="icon_tab_live" selectedImage="icon_tab_live_selected" id="Tyc-Pd-y52"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="L8m-yF-KQh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="690" y="-358"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="aNA-Yw-vko">
+            <objects>
+                <tabBarController id="CEM-w1-3LD" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="iis-YM-WKV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Lbq-U5-489" kind="relationship" relationship="viewControllers" id="1X6-H9-I24"/>
+                        <segue destination="BhJ-M2-gL8" kind="relationship" relationship="viewControllers" id="jXo-ZO-oZl"/>
+                        <segue destination="NaW-WK-GHn" kind="relationship" relationship="viewControllers" id="v9B-I2-n4s"/>
+                        <segue destination="gk9-cv-8c7" kind="relationship" relationship="viewControllers" id="Jlk-Yb-wTm"/>
+                        <segue destination="McA-un-2ii" kind="relationship" relationship="viewControllers" id="CuO-Hn-0AE"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sfA-Aq-jiC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="796" y="-1401"/>
+        </scene>
+        <!--shouye-->
+        <scene sceneID="P2o-MR-i4y">
+            <objects>
+                <viewControllerPlaceholder storyboardName="shouye" id="Lbq-U5-489" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="xzP-6E-htJ"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s47-pv-clt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-652" y="-358"/>
+        </scene>
+        <!--zhixiaoyinhang-->
+        <scene sceneID="r5O-z6-zl5">
+            <objects>
+                <viewControllerPlaceholder storyboardName="zhixiaoyinhang" id="BhJ-M2-gL8" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="g3g-q5-ToC"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mak-BK-WSX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="10" y="-358"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_tab_live" width="19" height="19"/>
+        <image name="icon_tab_live_selected" width="19" height="19"/>
+        <image name="icon_tab_message" width="19" height="19"/>
+        <image name="icon_tab_message_selected" width="19" height="19"/>
+        <image name="icon_tab_my_info" width="21" height="20"/>
+        <image name="icon_tab_my_info_selected" width="21" height="20"/>
+    </resources>
+</document>

@@ -10,6 +10,11 @@
 		B1B6C71D1EEE561800C83AD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B6C71C1EEE561800C83AD0 /* AppDelegate.swift */; };
 		B1B6C7221EEE561800C83AD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B6C7201EEE561800C83AD0 /* Main.storyboard */; };
 		B1B6C7241EEE561800C83AD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1B6C7231EEE561800C83AD0 /* Assets.xcassets */; };
+		B1B6C7371EEE8AA100C83AD0 /* shouye.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B6C7351EEE8AA100C83AD0 /* shouye.storyboard */; };
+		B1B6C7391EEE8AC000C83AD0 /* zhixiaoyinhang.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B6C7381EEE8AC000C83AD0 /* zhixiaoyinhang.storyboard */; };
+		B1B6C73C1EEE8AD200C83AD0 /* zhibo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B6C73A1EEE8AD200C83AD0 /* zhibo.storyboard */; };
+		B1B6C73E1EEE8AE100C83AD0 /* jimaoxin.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B6C73D1EEE8AE100C83AD0 /* jimaoxin.storyboard */; };
+		B1B6C7411EEE8AEE00C83AD0 /* wode.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1B6C73F1EEE8AEE00C83AD0 /* wode.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +23,11 @@
 		B1B6C7211EEE561800C83AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1B6C7231EEE561800C83AD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1B6C7281EEE561800C83AD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1B6C7361EEE8AA100C83AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = KBLC/Base.lproj/shouye.storyboard; sourceTree = SOURCE_ROOT; };
+		B1B6C7381EEE8AC000C83AD0 /* zhixiaoyinhang.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = zhixiaoyinhang.storyboard; sourceTree = "<group>"; };
+		B1B6C73B1EEE8AD200C83AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = KBLC/Base.lproj/zhibo.storyboard; sourceTree = SOURCE_ROOT; };
+		B1B6C73D1EEE8AE100C83AD0 /* jimaoxin.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = jimaoxin.storyboard; sourceTree = "<group>"; };
+		B1B6C7401EEE8AEE00C83AD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = KBLC/Base.lproj/wode.storyboard; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +72,11 @@
 			isa = PBXGroup;
 			children = (
 				B1B6C7201EEE561800C83AD0 /* Main.storyboard */,
+				B1B6C7351EEE8AA100C83AD0 /* shouye.storyboard */,
+				B1B6C7381EEE8AC000C83AD0 /* zhixiaoyinhang.storyboard */,
+				B1B6C73A1EEE8AD200C83AD0 /* zhibo.storyboard */,
+				B1B6C73D1EEE8AE100C83AD0 /* jimaoxin.storyboard */,
+				B1B6C73F1EEE8AEE00C83AD0 /* wode.storyboard */,
 				B1B6C7341EEE81DB00C83AD0 /* Main */,
 				B1B6C7311EEE819A00C83AD0 /* yaoqianshu */,
 				B1B6C7321EEE819A00C83AD0 /* yinhangtuijian */,
@@ -175,7 +190,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1B6C7241EEE561800C83AD0 /* Assets.xcassets in Resources */,
+				B1B6C73E1EEE8AE100C83AD0 /* jimaoxin.storyboard in Resources */,
+				B1B6C7411EEE8AEE00C83AD0 /* wode.storyboard in Resources */,
 				B1B6C7221EEE561800C83AD0 /* Main.storyboard in Resources */,
+				B1B6C73C1EEE8AD200C83AD0 /* zhibo.storyboard in Resources */,
+				B1B6C7391EEE8AC000C83AD0 /* zhixiaoyinhang.storyboard in Resources */,
+				B1B6C7371EEE8AA100C83AD0 /* shouye.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,6 +220,30 @@
 			);
 			name = Main.storyboard;
 			path = ..;
+			sourceTree = "<group>";
+		};
+		B1B6C7351EEE8AA100C83AD0 /* shouye.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1B6C7361EEE8AA100C83AD0 /* Base */,
+			);
+			name = shouye.storyboard;
+			sourceTree = "<group>";
+		};
+		B1B6C73A1EEE8AD200C83AD0 /* zhibo.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1B6C73B1EEE8AD200C83AD0 /* Base */,
+			);
+			name = zhibo.storyboard;
+			sourceTree = "<group>";
+		};
+		B1B6C73F1EEE8AEE00C83AD0 /* wode.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1B6C7401EEE8AEE00C83AD0 /* Base */,
+			);
+			name = wode.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="gk9-cv-8c7">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--鸡毛信-->
+        <scene sceneID="h2K-X7-dBS">
+            <objects>
+                <viewController id="gk9-cv-8c7" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="O4H-aa-F2k"/>
+                        <viewControllerLayoutGuide type="bottom" id="bc2-Vg-puB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vwo-b5-9bF">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="鸡毛信" image="icon_tab_message" selectedImage="icon_tab_message_selected" id="2lp-Yk-lT9"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4_7.fullscreen"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fxc-em-bkF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1366" y="-358"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="icon_tab_message" width="19" height="19"/>
+        <image name="icon_tab_message_selected" width="19" height="19"/>
+    </resources>
+</document>
